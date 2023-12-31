@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="follow, index">
+    <meta name="theme-color" content="#0D1117">
+    <link rel="manifest" href="app.webmanifest">
+    <link rel="apple-touch-icon" href="images/icon-512.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="stylesheet" href="styles/style.min.css">
+    <link rel="stylesheet" href="styles/github-markdown.min.css">
+    <script src="index.js"></script>
+    %google_analytics_head%
+</head>
+  <body>
+    %google_analytics_body%
+    <div id="root"></div>
+    <template id="home-page-template">
+      <navigation-bar></navigation-bar>
+      <main class="container home-page"></main>
+      <page-footer></page-footer>
+    </template>
+    <template id="article-page-template">
+      <navigation-bar></navigation-bar>
+      <main class="container article">
+        <header class="article__header">
+          <h1 class="article__title"></h1>
+          <div class="article__meta">
+            <span class="article__author"></span> / <time class="article__createdAt"></time>
+            <div class="article__tags"></div>
+          </div>
+        </header>
+        <article class="markdown-body"></article>
+        <article-footer></article-footer>
+      </main>
+      <page-footer></page-footer>
+    </template>
+    <template id="about-page-template">
+      <navigation-bar></navigation-bar>
+      <main class="container article">
+        <article class="markdown-body"></article>
+        <article-footer></article-footer>
+      </main>
+      <page-footer></page-footer>
+    </template>
+    <template id="not-found-page-template">
+      <navigation-bar></navigation-bar>
+      <main class="container not-found">
+        <h1>404</h1>
+        <p>Page not found</p>
+      </main>
+      <page-footer></page-footer>
+    </template>
+    <template id="search-page-template">
+      <navigation-bar></navigation-bar>
+      <main class="container search-page">
+        <header class="search-page__header">
+          <input class="search-page__input" type="text" placeholder="Search Articles">
+          <ul class="search-page__tags"></ul>
+        </header>
+        <div class="search-page__results"></div>
+      </main>
+      <page-footer></page-footer>
+    </template>
+    <template id="article-card-template">
+      <article class="article-card">
+        <header class="article-card__header">
+          <h3 class="article-card__title"></h3>
+          <time class="article-card__createdAt"></time>
+        </header>
+        <main class="article-card__main">
+          <p class="article-card__description"></p>
+        </main>
+      </article>
+    </template>
+    <template id="navigation-bar-template">
+      <nav class="navigation-bar">
+        <div class="container navigation-bar__container">
+          <h3 class="navigation-bar__logo">
+            <div class="navigation-bar__logo-image">
+          </h3>
+          <ul class="navigation-bar__links"></ul>
+        </div>
+      </nav>
+    </template>
+    <template id="page-footer-template">
+      <footer class="footer">
+        <div class="container footer__container">
+          <p class="footer__text"></p>
+        </div>
+      </footer>
+    </template>
+    <template id="article-footer-template">
+      <footer class="article-footer">
+        <button class="article-footer__button">← Back</button>
+        <button class="article-footer__button">↑ Top</button>
+      </footer>
+    </template>
+    %custom_templates%
+  </body>
+</html>

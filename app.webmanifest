@@ -1,0 +1,34 @@
+{
+  "lang": "en",
+  "scope": "/",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#0d1117",
+  "orientation": "portrait",
+  "name": "My Blog",
+  "background_color": "#0d1117",
+  "short_name": "My Blog",
+  "description": "This is my blog where I write about things",
+  "icons": [
+    {
+      "sizes": "512x512",
+      "type": "image/png",
+      "src": "images/icon-512.png"
+    },
+    {
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable",
+      "src": "images/icon-512.png"
+    }
+  ],
+  "screenshots" : [
+    {
+      "label": "My Blog",
+      "sizes": "1280x720",
+      "type": "image/jpg",
+      "form_factor": "wide",
+      "src": "images/screenshot.jpg"
+    }
+  ]
+}

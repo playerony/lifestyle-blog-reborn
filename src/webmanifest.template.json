@@ -1,0 +1,34 @@
+{
+  "lang": "en",
+  "scope": "/",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#0d1117",
+  "orientation": "portrait",
+  "name": "%title%",
+  "background_color": "#0d1117",
+  "short_name": "%title%",
+  "description": "%description%",
+  "icons": [
+    {
+      "sizes": "512x512",
+      "type": "image/png",
+      "src": "images/icon-512.png"
+    },
+    {
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable",
+      "src": "images/icon-512.png"
+    }
+  ],
+  "screenshots" : [
+    {
+      "label": "%title%",
+      "sizes": "1280x720",
+      "type": "image/jpg",
+      "form_factor": "wide",
+      "src": "images/screenshot.jpg"
+    }
+  ]
+}

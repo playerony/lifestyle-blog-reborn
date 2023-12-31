@@ -1,0 +1,20 @@
+{
+  "name": "vanilla-js-markdown-blog",
+  "version": "6.6.6",
+  "description": "xd",
+  "main": "index.js",
+  "repository": "https://github.com/playerony/vanilla-js-markdown-blog.git",
+  "author": "playerony <pawel.wojtasinski.1995@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "husky install",
+    "start": "yarn build && npx serve -s .",
+    "build": "node scripts/prepare-files-for-node.js && node scripts/build.js && node scripts/generate-sw.js && node scripts/remove-prepared-files.js"
+  },
+  "devDependencies": {
+    "html-minifier": "4.0.0",
+    "husky": "8.0.3",
+    "minify": "11.0.1",
+    "showdown": "2.1.0"
+  }
+}

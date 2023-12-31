@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    { 
+      "source": "/article-(.*)",
+      "destination": "/"
+    },
+    { 
+      "source": "/search",
+      "destination": "/"
+    },
+    { 
+      "source": "/about",
+      "destination": "/"
+    },
+    {
+      "source": "/404",
+      "destination": "/"
+    }
+  ]
+}

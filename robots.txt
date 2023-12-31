@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vanilla-js-markdown-blog.vercel.app/sitemap.xml
