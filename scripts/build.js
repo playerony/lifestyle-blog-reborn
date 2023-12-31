@@ -34,8 +34,12 @@ const generateArticleTemplates = async () => {
     const html = converter.makeHtml(template);
     const articleDetails = articlesByFileName[file];
 
-    if (!articleDetails) {
+    if (file === 'about.md') {
       templatesToAdd += `<template id="about-page-generated">${html}</template>`;
+      return;
+    }
+
+    if (!articleDetails) {
       return;
     }
 

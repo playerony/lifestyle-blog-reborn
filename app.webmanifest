@@ -5,10 +5,10 @@
   "display": "standalone",
   "theme_color": "#0d1117",
   "orientation": "portrait",
-  "name": "My Blog",
+  "name": "Paweł Wojtasiński Blog",
   "background_color": "#0d1117",
-  "short_name": "My Blog",
-  "description": "This is my blog where I write about things",
+  "short_name": "Paweł Wojtasiński Blog",
+  "description": "My place to hold all of the articles I have ever wrote about programming, psychology, lifestyle and more. I hope you will find something interesting here. Some of the articles are in Polish and some in English. I hope you will enjoy them.",
   "icons": [
     {
       "sizes": "512x512",
@@ -24,7 +24,7 @@
   ],
   "screenshots" : [
     {
-      "label": "My Blog",
+      "label": "Paweł Wojtasiński Blog",
       "sizes": "1280x720",
       "type": "image/jpg",
       "form_factor": "wide",

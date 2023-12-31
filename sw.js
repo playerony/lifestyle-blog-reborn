@@ -1,6 +1,6 @@
 
   const CACHE_NAME = 'markdown-blog-resources-v1';
-  const URLS_TO_CACHE = ["app.webmanifest","blog.articles.js","blog.config.js","images/favicon-16x16.png","images/favicon-32x32.png","images/icon-512.png","images/screenshot.jpg","images/test-image.png","index.html","index.js","robots.txt","sitemap.xml","styles/github-markdown.min.css","styles/style.min.css","sw-register.js","sw.js"];
+  const URLS_TO_CACHE = ["app.webmanifest","blog.articles.js","blog.config.js","images/favicon-16x16.png","images/favicon-32x32.png","images/icon-512.png","images/screenshot.jpg","index.html","index.js","robots.txt","sitemap.xml","styles/github-markdown.min.css","styles/style.min.css","sw-register.js","sw.js"];
 
   self.addEventListener('install', function(event) {
     event.waitUntil(

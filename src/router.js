@@ -39,14 +39,16 @@ const router = {
       rootElement.innerHTML = "";
       rootElement.appendChild(pageElement);
 
-      window.scrollX = 0;
-      window.scrollY = 0;
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+      }, 0);
     }
   },
   back: () => {
     history.back();
 
-    window.scrollX = 0;
-    window.scrollY = 0;
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 0);
   },
 };
