@@ -8,5 +8,5 @@ const config = {
   keywords: ['blog', 'website', 'pawel', 'wojtasinski', 'paweł', 'wojtasiński', 'playerony'],
   since: 2020, // If leave this empty, current year will be used.
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
-  link: 'https://vanilla-js-markdown-blog.vercel.app'
+  link: 'https://lifestyle-blog-reborn.vercel.app'
 }
