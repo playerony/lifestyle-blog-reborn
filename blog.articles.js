@@ -162,7 +162,7 @@ const articles = [
   },
   {
     title: "Zdejmij maskę i stań oko w oko z prawdą",
-    fileName: "321ec49b-eb25-4e47-bcdf-656287431cc0.md",
+    fileName: "2a77c03f-28a3-40c3-8275-b2deb293ed8a.md",
     description: "Osobiście nie znam osoby, która byłaby w 100% szczera. Wszyscy kłamią. Ja też. Nie wiem dlaczego, ale dorastając, zacząłem zauważać, że mam tendencję ku temu aby zawyżać wielkość swoich osiągnięć. Ale myślę, że to nie tylko ja. To coś w rodzaju Halloween, które nigdy się nie kończy. Albo w sumie mam lepszy pomysł. Pewnie kojarzysz takie maski, które często kojarzone są z teatrem. Jedna z nich jest uśmiechnięta, a druga smutna.  W sumie teraz pomyślałem, że normalnie życie wiedzie się jak jakieś teatr. Na jakiejś gigantycznej scenie. Wyjście z niego jest cholernie trudne, gdyż się w nim rodzisz. Ale zobrazuj sobie to, że garstce osób udaje się z tego wydostać. Osoby te żyją szczerze ze sobą, może w odczuciu ludzi biorących udział w spektaklu są samotni - co w ich mniemaniu oznacza nieszczęście. Jednakże Ci ludzie dostają bilet, którego większość nigdy nawet nie zobaczy.",
     createdAt: "2020-08-04",
     tags: ["Lifestyle", "Emotions"],

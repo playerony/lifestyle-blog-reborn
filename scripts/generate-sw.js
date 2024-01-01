@@ -33,10 +33,6 @@ const addUrlsToCacheFromDirectory = (directory = '') =>
 
 addUrlsToCacheFromDirectory();
 
-if (blogConfig.measurementId) {
-  URLS_TO_CACHE.push("https://www.googletagmanager.com/gtm.js?id=" + blogConfig.measurementId);
-}
-
 fs.writeFileSync(
   "sw.js",
   `

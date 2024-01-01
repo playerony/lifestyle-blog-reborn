@@ -5,9 +5,8 @@ const config = {
   showAboutPage: true,
   sortArticlesByDate: true,
   socialLink: 'https://www.linkedin.com/in/pwojtasinski',
-  keywords: ['blog', 'website', 'articles', 'programming', 'psychology', 'lifestyle', 'pawel', 'wojtasinski', 'meditation', 'sport', 'emotions'],
-  since: 2023, // If leave this empty, current year will be used.
+  keywords: ['blog', 'website', 'pawel', 'wojtasinski', 'paweł', 'wojtasiński', 'playerony'],
+  since: 2020, // If leave this empty, current year will be used.
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
-  link: 'https://vanilla-js-markdown-blog.vercel.app',
-  measurementId: '' // e.g: GTM-XXXXXXXX
+  link: 'https://vanilla-js-markdown-blog.vercel.app'
 }
