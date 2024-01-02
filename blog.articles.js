@@ -187,5 +187,12 @@ const articles = [
     description: "W okresie kwarantanny zauważyłem, że większość ludzi wokół mnie irytuje lub denerwuje. Zauważyłem, że odczuwam znacznie mniejszy stres podczas okresu zamknięcia. Pewnego dnia myślałem nad tym trochę więcej i doszedłem do wniosku, że znaczna część mojego stresu pochodzi z relacji z innymi ludźmi. Na szczęście mam bezpośrednie znajomości, które dają mi nadzieję, że nie jestem psychopatą. Pozwala mi to podzielić ludzi, z którymi się spotykam, na dwie kategorie. Ludzi z którymi super mi się rozmawia i ludzie, którzy mnie denerwują.",
     createdAt: "2020-08-31",
     tags: ["Psychologia", "Styl życia", "Emocje"],
+  },
+  {
+    title: "Kiedy gaśnie światło",
+    fileName: "5d28c45b-83ee-45cb-a1b0-4c75bf4213b6.md",
+    description: "Utwór zainspirowany obrazem \"Smutek gasnącego dnia\" autorstwa Łukasza Korolkiewicza. Opowiadający o dorastającym samotnym dziecku i jego wewnętrznych konfliktach. Tych egzystencjalnych jak i emocjonalnych.",
+    createdAt: "2023-11-27",
+    tags: ["Muzyka"],
   }
 ];
