@@ -1,7 +1,7 @@
 const formatDate = (inputDate) => {
   const options = { year: "numeric", month: "short", day: "numeric" };
   const dateObject = new Date(inputDate);
-  return dateObject.toLocaleDateString("en-US", options);
+  return dateObject.toLocaleDateString(config.lang, options);
 };
 
 const transformArticles = (articles) => {

@@ -8,7 +8,7 @@
   "name": "Paweł Wojtasiński Blog",
   "background_color": "#0d1117",
   "short_name": "Paweł Wojtasiński Blog",
-  "description": "My place to hold all of the articles I have ever wrote about programming, psychology, lifestyle and more. I hope you will find something interesting here. Some of the articles are in Polish and some in English. I hope you will enjoy them.",
+  "description": "Moje miejsce do przechowywania wszystkich artykułów, które kiedykolwiek napisałem o psychologii, stylu życia i nie tylko. Mam nadzieję, że znajdziesz tutaj coś interesującego. Mam nadzieję, że się spodobają :)",
   "icons": [
     {
       "sizes": "512x512",
@@ -26,9 +26,9 @@
     {
       "label": "Paweł Wojtasiński Blog",
       "sizes": "1280x720",
-      "type": "image/jpg",
+      "type": "image/png",
       "form_factor": "wide",
-      "src": "images/screenshot.jpg"
+      "src": "images/screenshot.png"
     }
   ]
 }

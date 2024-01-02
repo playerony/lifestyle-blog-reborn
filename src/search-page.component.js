@@ -38,7 +38,7 @@ class SearchPage extends HTMLElement {
   }
   renderTags() {
     const tagsElement = this.querySelector("ul[class='search-page__tags']");
-    app.availableTags.forEach((tag) => {
+    app.availableTags.sort((a, b) => b.count - a.count).forEach((tag) => {
       const tagElement = this.createTagElement(tag);
       tagsElement.appendChild(tagElement);
     });

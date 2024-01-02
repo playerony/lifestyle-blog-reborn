@@ -26,9 +26,9 @@
     {
       "label": "%title%",
       "sizes": "1280x720",
-      "type": "image/jpg",
+      "type": "image/png",
       "form_factor": "wide",
-      "src": "images/screenshot.jpg"
+      "src": "images/screenshot.png"
     }
   ]
 }

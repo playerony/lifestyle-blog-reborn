@@ -1,7 +1,7 @@
 class NavigationBar extends HTMLElement {
   #LINKS = [
-    { href: "/about", text: "About" },
-    { href: "/search", text: "Search" },
+    { href: "/about", text: "O mnie" },
+    { href: "/search", text: "Szukaj" },
   ];
   constructor() {
     super();
