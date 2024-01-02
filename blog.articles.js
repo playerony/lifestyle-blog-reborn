@@ -187,5 +187,12 @@ const articles = [
     description: "W okresie kwarantanny zauważyłem, że większość ludzi wokół mnie irytuje lub denerwuje. Zauważyłem, że odczuwam znacznie mniejszy stres podczas okresu zamknięcia. Pewnego dnia myślałem nad tym trochę więcej i doszedłem do wniosku, że znaczna część mojego stresu pochodzi z relacji z innymi ludźmi. Na szczęście mam bezpośrednie znajomości, które dają mi nadzieję, że nie jestem psychopatą. Pozwala mi to podzielić ludzi, z którymi się spotykam, na dwie kategorie. Ludzi z którymi super mi się rozmawia i ludzie, którzy mnie denerwują.",
     createdAt: "2020-08-31",
     tags: ["Psychology", "Lifestyle", "Emotions"],
+  },
+  {
+    title: "Aspie Programmer: Embracing Neurodiversity and Unlocking Potential in the Tech Industry",
+    fileName: "93ce096a-72f1-4ac4-97e7-32a63525803a.md",
+    description: "It was January 2023 when my psychotherapist informed me that I have Asperger’s syndrome, a revelation that profoundly changed my life. For years, I had felt different from others but never truly understood why. This newfound knowledge about my neurodiversity sparked a burning curiosity within me to learn more about Asperger’s and its implications for my professional life as a programmer.",
+    createdAt: "2023-04-21",
+    tags: ["Psychology", "Lifestyle", "Tech"],
   }
 ];

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vanilla-js-markdown-blog.vercel.app/sitemap.xml
+Sitemap: https://lifestyle-blog-reborn.vercel.app/sitemap.xml
