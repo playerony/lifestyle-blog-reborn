@@ -8,5 +8,5 @@ const config = {
   keywords: ['blog', 'strona', 'paweł', 'wojtasiński', 'playerony'],
   since: 2020, // If leave this empty, current year will be used.
   lang: 'pl-PL', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
-  link: 'https://lifestyle-blog-reborn.vercel.app'
+  link: 'https://www.pawelwojtasinski.pl'
 }
