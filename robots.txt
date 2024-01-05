@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lifestyle-blog-reborn.vercel.app/sitemap.xml
+Sitemap: https://www.pawelwojtasinski.pl/sitemap.xml
