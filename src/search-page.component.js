@@ -30,7 +30,7 @@ class SearchPage extends HTMLElement {
       this.renderResults(event.target.value);
     });
     if (tagFromQuery) {
-      inputElement.placeholder = `Search in #${tagFromQuery}`;
+      inputElement.placeholder = `Szukaj w #${tagFromQuery}`;
     }
     if (searchedQuery) {
       inputElement.value = searchedQuery;
@@ -81,7 +81,7 @@ class SearchPage extends HTMLElement {
       );
     if (filteredArticles.length === 0) {
       resultsElement.innerHTML =
-        '<h5 class="search-page__no-results">No results found</h5>';
+        '<h5 class="search-page__no-results">Nie znaleziono żadnych wyników</h5>';
       return;
     }
     filteredArticles.forEach((article) => {
